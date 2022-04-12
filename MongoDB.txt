@@ -1,0 +1,22 @@
+Models
+
+- Models represent collection in MongoDB 
+- User Model to represent a collection of Users
+- Ninja Model to represent a collecion of Ninjas
+
+Schemas
+
+-Schemas define the structure of our data objects for
+
+{
+  name: String,
+  rank: String,
+  availability: Boolean
+}
+
+Collection of Objects - Models
+
+Mongoose
+
+-Adds a layer of methods to easily save, edit, retrieve and delete data from mongodb
+-Allows us to create our Models and Schemas easily.
